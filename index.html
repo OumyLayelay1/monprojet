@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Mon premier site</title>
+  </head>
+  <body>
+    <header>
+      <nav class="containerNav">
+        <ul class="containerList">
+            <li class="list listImage">
+                <a href="#home" class="logoLink"
+          ><img src="./Images/logo.png" alt="Logo" class="logo"
+        /></a>
+            </li>
+          <li class="list"><a href="#home" class="lien">Home</a></li>
+          <li class="list"><a href="#about" class="lien">About</a></li>
+          <li class="list"><a href="#service" class="lien">Services</a></li>
+          <li class="list"><a href="#blog" class="lien">Blog</a></li>
+          <li class="list">
+            <a href="#contact" class="lienContact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="containerHeader" id="home">
+        <p class="textHome">Welcome to your first website</p>
+      </div>
+    </header>
+    <main>
+      <div class="containerPropos" id="about">
+        <h1 class="containTitle">About Us</h1>
+        <div class="containerParagraph">
+          <p class="myParagraph">
+            Starting your website experience with simple CSS templates is a
+            great choice, whether you are a developer or a general user. Simple
+            CSS templates are easy to use, and we have compiled a list of the
+            best free templates for you. These templates adhere to industry code
+            standards and use the CSS3 framework, making editing and
+            customization a breeze.
+          </p>
+          <p class="myParagraph">
+            Another significant advantage of simple CSS templates is their ease
+            of maintenance. Even if you have made coding errors, you can quickly
+            rectify them in these templates. As these templates follow industry
+            code standards, they are properly optimized for performance. Despite
+            being free, these templates offer pixel-perfect designs. In terms of
+            functionality, these templates provide ample options, but you must
+            integrate them manually with other tools and platforms.
+          </p>
+        </div>
+      </div>
+      <div class="containerService" id="service">
+        <h1 class="containTitle">Our services</h1>
+        <div class="containerParagraph">
+          <div><img src="./Images/service1.jpg" alt="Service1" class="service" /></div>
+          <div><img src="./Images/service2.jpg" alt="Service2" class="service" /></div>
+          <div><img src="./Images/service3.jpg" alt="Service3" class="service" /></div>
+          <div><img src="./Images/service4.jpg" alt="Service4" class="service" /></div>
+        </div>
+      </div>
+      <div class="containerBlog" id="blog">
+        <h1 class="containTitle">Our blogs</h1>
+        <div class="containerParagraph containPicture">
+          <p class="myParagraph paragraphStylise">
+            Sometimes, the best blog designs are also the simplest. Help Scout,
+            makers of customer service software, uses a unique but minimalist
+            design on its blog that we love — it limits copy and visuals and
+            embraces negative space.
+          </p>
+          <img src="./Images/blog1.jpg" alt="Blog1" class="ImageBlog"/>
+        </div>
+        <div class="containerParagraph containPicture">
+          <img src="./Images/blog2.jpg" alt="Blog2" class="ImageBlog"/>
+          <p class="myParagraph paragraphStylise">
+            What we particularly like about this blog is its use of featured
+            images for all posts, including the "Most Recent Posts" section that
+            highlights recent or particularly popular entries. These images
+            catch the readers' eye and signal what the post is about. And it
+            works — everything about this blog's design says clean and readable.
+          </p>
+        </div>
+      </div>
+      <div class="container-formulaire" id="contact">
+        <div class="formContain">
+          <h1 class="containTitle">Contact us</h1>
+          <form action="" class="formulaire">
+            <div class="containerLabel">
+              <label for="firstname" class="labelClass">Nom:</label>
+              <input type="text" id="firstname" class="inputClass" />
+            </div>
+            <div class="containerLabel">
+              <label for="lastname" class="labelClass">Prénom:</label>
+              <input type="text" id="lastname" class="inputClass" />
+            </div>
+            <div class="containerLabel">
+              <label for="email" class="labelClass">Email:</label>
+              <input type="email" id="email" class="inputClass" />
+            </div>
+            <div class="containerLabel">
+              <label for="phone" class="labelClass">Phone:</label>
+              <input type="number" id="phone" class="inputClass" />
+            </div>
+            <div class="containerLabel">
+              <label for="message" class="labelClass">Message:</label>
+              <textarea id="message" rows="3" class="inputClass"></textarea>
+            </div>
+            <div class="containButton"><button type="submit" class="soumission">Submit</button></div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="containerFooter">
+        <div>
+          <p class="textFS">&COPY; in February 2024 at RED TEAM</p>
+        </div>
+        <div>
+          <h4>Our social networks</h4>
+          <p class="icons">
+            <i class="fa-brands fa-facebook sizeIcone"></i>
+            <i class="fa-brands fa-twitter sizeIcone"></i>
+            <i class="fa-brands fa-tiktok sizeIcone"></i>
+            <i class="fa-brands fa-telegram sizeIcone"></i>
+            <i class="fa-brands fa-instagram sizeIcone"></i>
+          </p>
+        </div>
+        <div class="">
+          <p class="textFS">Developed by Oumy Laye KANE (Oumzy Dev)</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

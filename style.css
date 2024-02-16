@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    /* border: solid red; */
+}
+body{
+    overflow-x: hidden;
+}
+.logo{
+    width: 50%;
+}
+.listImage{
+    width: 10%;
+}
+.containerNav{
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.paragraphStylise{
+    margin: 25px;
+    padding: 40px;
+    margin-bottom: 0;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.containerList, .containerParagraph{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 5px;
+    padding-top: 0;
+}
+.list{
+    list-style: none;
+    font-size: 21px;
+}
+a{
+    text-decoration: none;
+}
+.lien{
+    color: #db3131c7;
+}
+.lienContact{
+    background: #db3131c7;
+    color: white;
+    padding: 15px;
+}
+.containTitle{
+    text-align: center;
+    color: grey;
+    font-weight: 800;
+    padding: 30px 0;
+}
+.myParagraph{
+    font-size: 20px;
+    padding: 25px;
+}  
+.service{
+    max-width: 100%;
+    max-height: 175px;
+    margin: 15px;
+}
+.ImageBlog{
+    width: 75%;
+}
+.formContain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerLabel, .containButton{
+    padding: 15px;
+}
+.inputClass{
+    width: 100%;
+    padding: 10px;
+}  
+.labelClass{
+    font-size: 21px;
+}
+.soumission{
+    width: 100%;
+    text-align: center;
+    background: #db3131c7;
+    color: white;
+    padding: 5px;
+    border: solid #db3131c7;
+    font-size: 21px;
+}
+.containerFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;  
+}
+footer{
+    background: #db31318f;
+    color: white;
+    padding: 25px;
+}
+.textFS{
+    font-size: 20px;
+}  
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+}
+.containerHeader{
+    background-image: url("./Images/pictureHeader.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.textHome{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 15% 0 0 15%;
+}
+.containPicture{
+    margin: 25px;
+}
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .containerFooter, .containerParagraph, .containPicture {
+        display: block;
+    }
+    .list {
+        font-size: 10px;
+    }
+    .logo{
+        width: 25%;
+    }
+    .lienContact{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .listImage{
+        display: none;
+    }
+    .containerList{
+        padding: 15px;
+    }
+    .containerHeader{
+        height: 200px;
+    }
+    .textHome {
+        font-size: 24px;
+        padding: 23% 0 0 15%;
+    }
+}
